@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seu Desempenho"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/txtProdutividade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produtividade: 0.00%"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerDesempenho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnExportarPdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exportar para PDF"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

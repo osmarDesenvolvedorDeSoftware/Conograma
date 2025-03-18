@@ -24,13 +24,13 @@
 ## 📸 Capturas de Tela
 
 ### 📊 Tela de Desempenho
-<img src="https://github.com/osmarDesenvolvedorDeSoftware/MeuCronograma/blob/main/screenshots/desempenho.png" width="300">
+<img src="https://github.com/osmarDesenvolvedorDeSoftware/Conograma/blob/master/desempenho.png" width="300">
 
 ### ✅ Tela de Checklist
-<img src="https://github.com/osmarDesenvolvedorDeSoftware/MeuCronograma/blob/main/screenshots/checklist.png" width="300">
+<img src="https://github.com/osmarDesenvolvedorDeSoftware/Conograma/blob/master/checklist.png" width="300">
 
 ### 📖 Diário de Aprendizado
-<img src="https://github.com/osmarDesenvolvedorDeSoftware/MeuCronograma/blob/main/screenshots/diario.png" width="300">
+<img src="https://github.com/osmarDesenvolvedorDeSoftware/Conograma/blob/master/diario.png" width="300">
 
 ## 🚀 Como Rodar o Projeto
 
